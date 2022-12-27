@@ -1,0 +1,16 @@
+public class Main {
+    public static void main( String[] args ) {
+        int val;
+        for (val = 100; val >= 10; val--) {
+            System.out.println ( "val: " + val );
+            if (val == 95) {
+                break;
+            }
+        }
+            System.out.println ( "Out of for-loop" );
+
+    }
+}
+
+
+
